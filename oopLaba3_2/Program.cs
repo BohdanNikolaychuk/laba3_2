@@ -40,7 +40,7 @@ namespace oopLaba3_2
             using (var sw =new StreamReader(path)) {
 
                 string str = sw.ReadToEnd();
-
+                string str = sw.ReadToEnd();
 
                 Reverse(str);
                 text(str);
